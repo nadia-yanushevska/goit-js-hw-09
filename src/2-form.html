@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <section>
+      <a href="./index.html">Go to home</a>
+      <form class="feedback-form" autocomplete="off" data-login-form>
+        <label class="form-label">
+          Email
+          <input
+            class="form-input"
+            type="email"
+            name="email"
+            autofocus
+            data-email
+          />
+        </label>
+        <label class="form-label">
+          Message
+          <textarea
+            class="form-input form-comment"
+            name="message"
+            rows="8"
+            data-comment
+          ></textarea>
+        </label>
+        <button type="submit" class="form-btn">Submit</button>
+      </form>
+    </section>
+
+    <script type="module" src="./js/2-form.js"></script>
+  </body>
+</html>
